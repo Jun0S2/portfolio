@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7aabe8a6.css",
+    "main.js": "/portfolio/static/js/main.1855f7ea.js",
+    "static/media/mobile2.png": "/portfolio/static/media/mobile2.3ee99f55dcf4474878c3.png",
+    "static/media/moduMap.png": "/portfolio/static/media/moduMap.ca46fb0acae98f2fd218.png",
+    "static/media/mobile1.png": "/portfolio/static/media/mobile1.83c51b9a741938dfc8ab.png",
+    "static/media/desktop.jpg": "/portfolio/static/media/desktop.3a2510c6acb129fd09f6.jpg",
+    "static/media/bgm.jpg": "/portfolio/static/media/bgm.2433392858353775301e.jpg",
+    "static/media/challympicFeed1.png": "/portfolio/static/media/challympicFeed1.270e24d1ac1ae44f919c.png",
+    "static/media/ibginterests.jpg": "/portfolio/static/media/ibginterests.417dddf940abcd2e259c.jpg",
+    "static/media/challympicSearch.png": "/portfolio/static/media/challympicSearch.44c12456b8763b4adc69.png",
+    "static/media/challympic.png": "/portfolio/static/media/challympic.70ea09f447d61dd1f2d3.png",
+    "static/media/moduDark.png": "/portfolio/static/media/moduDark.2a2afe5bc354cd001b3a.png",
+    "static/media/challympicFeed.png": "/portfolio/static/media/challympicFeed.88f286d6fd3877fb2ed3.png",
+    "static/media/modumain.png": "/portfolio/static/media/modumain.4ccd35bcb1f1661c1225.png",
+    "static/media/ibgcafe.jpg": "/portfolio/static/media/ibgcafe.7c5a425da1a5de014307.jpg",
+    "static/media/ibgupload.jpg": "/portfolio/static/media/ibgupload.c0de2362520c310a8dab.jpg",
+    "static/media/moduCalendar.png": "/portfolio/static/media/moduCalendar.f6b4903f4ee750dd806e.png",
+    "static/media/ibgsearch.jpg": "/portfolio/static/media/ibgsearch.0f223bfcd60796b9fc5f.jpg",
+    "static/media/moduAdminDark.png": "/portfolio/static/media/moduAdminDark.04241bb69eb649286c22.png",
+    "static/media/mobile.jpg": "/portfolio/static/media/mobile.93ddf0c5a19078ea874b.jpg",
+    "static/media/moduAdmin.png": "/portfolio/static/media/moduAdmin.06f8357e0285c27eac14.png",
+    "static/media/challympicMobile.png": "/portfolio/static/media/challympicMobile.0413027ece6d5919f4b5.png",
+    "static/media/join.jpg": "/portfolio/static/media/join.385b90f5d558433587d7.jpg",
+    "static/media/moduBoard.png": "/portfolio/static/media/moduBoard.4f5b9ed9553166031cd7.png",
+    "static/media/aboutMe.png": "/portfolio/static/media/aboutMe.4e96612af3fd7fdfa747.png",
+    "static/media/notion.svg": "/portfolio/static/media/notion.788da1cce553c0bbd4f85b1aaee40405.svg",
+    "index.html": "/portfolio/index.html",
+    "main.7aabe8a6.css.map": "/portfolio/static/css/main.7aabe8a6.css.map",
+    "main.1855f7ea.js.map": "/portfolio/static/js/main.1855f7ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aabe8a6.css",
+    "static/js/main.1855f7ea.js"
+  ]
+}

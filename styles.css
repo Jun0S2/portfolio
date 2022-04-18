@@ -1,0 +1,8 @@
+* {
+  font-family: "Dohyeon" !important;
+}
+
+@font-face {
+  font-family: "Dohyeon";
+  src: url("./BMDOHYEON_ttf.ttf");
+}
