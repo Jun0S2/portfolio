@@ -1,0 +1,79 @@
+.whiteBox {
+  background-color: rgb(170, 194, 245);
+  width: 80vw;
+  height: 80vh;
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+  animation: activities-whiteBox 15s;
+}
+.innerBox {
+  background-color: white;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 8%;
+  right: 7%;
+  margin: -10px 0 0 -5px;
+  animation: activities-whiteBox 15s;
+}
+.activities-table {
+  max-height: 35vh;
+  border-radius: 25px;
+  max-width: 80vw;
+  top: 200px;
+  position: absolute;
+  top: 28%;
+  right: 6%;
+  margin: -10px 0 0 -5px;
+  animation: activities-whiteBox 15s;
+}
+.circle-red {
+  background-color: #ff403d;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 25px;
+  display: inline-block;
+}
+.circle-yellow {
+  background-color: #fcb103;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 15px;
+  border-radius: 25px;
+}
+.circle-green {
+  background-color: #03fc6f;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 50px;
+}
+
+img {
+  max-height: 60vh;
+  max-width: 40vw;
+  object-fit: contain;
+  border-radius: 25px;
+  padding: 10%;
+  /* enlarge */
+  transition: transform 0.25s ease;
+  /* shadow */
+  filter: drop-shadow(5px 5px 4px #000);
+}
+/* 클릭하면 커지게 */
+img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.alice-carousel__dots {
+  margin-top: -50px;
+}
