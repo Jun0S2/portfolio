@@ -8,8 +8,11 @@ import Contact from "./pages/Contact";
 
 import "./App.css";
 function App() {
+  window.ondragstart = function () {
+    return false;
+  };
   return (
-    <div className="App">
+    <div className="App noselect">
       <FullPage>
         {/* navibar */}
         <Navibar />
