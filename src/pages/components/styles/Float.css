@@ -6,6 +6,13 @@
   padding-top: 3px;
 }
 
+.infinite-floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  padding-top: 3px;
+}
 @keyframes floating {
   from {
     transform: translate(0, 0px);

@@ -89,7 +89,7 @@ export default function Interests() {
                 alignItems="center"
                 item
                 xs={5}
-                sx={{ pl: 10, pt: 5 }}
+                sx={{ pl: 15, pt: 5 }}
               >
                 <SkillStacks />
               </Grid>

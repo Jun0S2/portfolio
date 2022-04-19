@@ -1,6 +1,6 @@
 import "./components/styles/IntroStyle.css";
 import React from "react";
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import ActivitiesText from "./components/text/ActivitiesText";
 import "./components/styles/Activities.css";
 import "./components/styles/Background.css";

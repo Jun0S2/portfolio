@@ -8,6 +8,7 @@ import { Grid, IconButton, Tooltip } from "@mui/material";
 import Swal from "sweetalert2";
 import ContactText from "../pages/components/text/ContactText";
 import "../components/UniverseStyle.css";
+
 export default function Contact() {
   const discordId = "June#7825";
   const copyDiscordID = () => {
@@ -15,7 +16,8 @@ export default function Contact() {
     Swal.fire({
       title: "디스코드 아이디가  복사되었습니다. 디스코드에서 봐요 =^._.^=",
       width: 600,
-      padding: "3em",
+      heightAuto: false,
+      padding: "2em",
       color: "#716add",
       backdrop: `
           rgba(0,0,123,0.4)

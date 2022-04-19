@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import { TagCloud } from "react-tagcloud";
@@ -26,7 +25,7 @@ export default function SkillStacks() {
   ];
   return (
     <>
-      <TagCloud minSize={24} maxSize={38} tags={data} className="floating" />
+      <TagCloud minSize={24} maxSize={64} tags={data} />
     </>
   );
 }

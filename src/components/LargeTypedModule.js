@@ -22,8 +22,10 @@ export default function LargeTypedModule({
         <item>
           <TypeWriterEffect
             startDelay={time}
-            hideCursorAfterText={lastWord}
+            hideCursorAfterText={lastWord ? false : true}
             text={msg}
+            textStyle={{ color: "#FFf" }}
+            cursorColor="#fff"
             typeSpeed={150}
           />
         </item>

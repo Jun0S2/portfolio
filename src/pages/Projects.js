@@ -37,7 +37,7 @@ export default function projects() {
           >
             {/* Desktop : Text *원래 5*/}
             <Grid container direction="row" alignItems="center">
-              <Grid direction="row" sx={{ mt: 0 }}>
+              <Grid direction="row" sx={{ mt: 10 }}>
                 <ProjectText />
               </Grid>
             </Grid>

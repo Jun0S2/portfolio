@@ -38,9 +38,10 @@ export default function Intro() {
             {/* Desktop */}
             <Grid
               container
-              xs={5}
+              xs={6}
+              sm={5}
               direction="column"
-              sx={{ px: 8 }}
+              sx={{ px: { sm: 8, xs: 4 } }}
               className="diagonal-hero-bg fadein"
               justifyContent="center"
               style={{ minHeight: "100vh" }}
@@ -57,13 +58,14 @@ export default function Intro() {
               justifyContent="center"
             >
               <img
-                className="intro-aboutMe-desktop floating fadein"
-                style={{ maxWidth: "50vw" }}
+                className="intro-aboutMe-desktop infinite-floating fadein"
+                style={{
+                  maxWidth: "50vw",
+                }}
                 src={AboutMeImg}
                 alt="AboutMe"
               />
             </Grid>
-            <Grid xs={1}></Grid>
           </Grid>
         )}
       </div>

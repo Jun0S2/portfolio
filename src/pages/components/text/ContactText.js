@@ -9,7 +9,7 @@ export default function Contact() {
         msg={"Contact Me with..."}
         time={100}
         inLine={true}
-        lastWord={false}
+        lastWord={true}
       />
     </>
   );

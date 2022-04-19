@@ -6,10 +6,6 @@
   margin-bottom: 0;
 }
 
-body {
-  background-color: rgb(245, 245, 245);
-}
-
 .intro-aboutMe-desktop {
   /* round edges */
   border-radius: 25px;

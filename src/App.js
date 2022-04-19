@@ -1,3 +1,4 @@
+import { FullPage, Slide } from "react-full-page/lib";
 import Navibar from "./components/Navibar";
 import Intro from "./pages/Intro";
 import Interests from "./pages/Interests";
@@ -9,17 +10,28 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {/* navibar */}
-      <Navibar />
-      <Intro />
-      <Interests />
-      {/* 싸피 활동*/}
-      <Activities />
-      {/* 프로젝틑*/}
-      <Projects />
-      {/* contact me*/}
-      <Contact />
-  
+      <FullPage>
+        {/* navibar */}
+        <Navibar />
+        <Slide>
+          <Intro />
+        </Slide>
+        <Slide>
+          <Interests />
+        </Slide>
+        {/* 싸피 활동*/}
+        <Slide>
+          <Activities />
+        </Slide>
+        {/* 프로젝틑*/}
+        <Slide>
+          <Projects />
+        </Slide>
+        {/* contact me*/}
+        <Slide>
+          <Contact />
+        </Slide>
+      </FullPage>
     </div>
   );
 }

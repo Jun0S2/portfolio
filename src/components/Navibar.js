@@ -8,7 +8,12 @@ import { Link as LinkScroll } from "react-scroll";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" style={{ background: "#c2c2c2" }}>
+      <AppBar
+        elevation={0}
+        position="fixed"
+        color="transparent"
+        style={{ background: "transparent", color: "white" }}
+      >
         <Toolbar>
           <Button color="inherit">
             <LinkScroll
@@ -28,7 +33,6 @@ export default function ButtonAppBar() {
               to="second"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={150}
             >
               Skills
@@ -40,7 +44,6 @@ export default function ButtonAppBar() {
               to="third"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={150}
             >
               Activities
@@ -52,7 +55,6 @@ export default function ButtonAppBar() {
               to="fourth"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={150}
             >
               Projects
@@ -64,7 +66,6 @@ export default function ButtonAppBar() {
               to="fifth"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={150}
             >
               Contact
