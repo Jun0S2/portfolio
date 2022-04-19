@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# June Park Frontend Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ## Version 1.0
+>
+> ### 📅 기간 : 2022.04.08 - 2022.04.10
+>
+> ### @author : June Park
 
-## Available Scripts
+## 👀 Final Looks
 
-In the project directory, you can run:
+![ver1](./assets/portfolio.gif)
 
-### `npm start`
+## Tools Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. React
+2. Javascript
+3. Alice Carousel
+4. Fullpage.js
+5. WordCloud
+6. TypeWriter
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Improvements to be made
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 반응형으로 수정 : 현재 데스크탑에서 사이즈가 깨지는 배율 존재
+2. 모바일 화면 준비 : 아직 마음에 드는 디자인은 없지만 추후에 모바일도 만들기
+3. Full Page 수정 : 현재 full-page.js를 적용했더니 behavior가 약간 불편하고 이상해서 수정해야한다. 또, 스크롤 해도 인식을 잘 못하는 것 같다.
+4. Navbar 현재 페이지 하이라이트하기
+5. 우측에 페이지 dot indicator 추가하기 (여백 남겨둔 상태)
+6. 드래그 비허용하기
+7. Skills에서 글씨가 검정색으로 적용되어있는데 흰색으로 수정하기
+8. Skills에서 Word Cloud에 scatter / shuffle / hover시마다 효과를 주고 싶다. 어떤 느낌으로 주어야하는지 아직은 더 생각해보아야 할 것 같다.
+9. Activities 탭의 내용 공백이 이상하다. 디자인을 다시 해보면 좋을 듯 하다.또, 해당 탭에서 애니메이션 효과를 주면 좋을 듯 하다.
