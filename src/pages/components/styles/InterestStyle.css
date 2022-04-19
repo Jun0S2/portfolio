@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.background {
+  background: #eee;
+  background: linear-gradient(
+    120deg,
+    rgba(50, 150, 100, 0.2),
+    rgba(0, 0, 100, 0)
+  );
+}
+
+.container {
+  flex: 1;
+  overflow: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+
+  background: #eee;
+  background: linear-gradient(
+    240deg,
+    rgba(150, 50, 50, 0.3),
+    rgba(0, 0, 200, 0)
+  );
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import "./components/styles/IntroStyle.css";
 import { Grid } from "@mui/material";
 import ProjectCarousel from "./components/ProjectCarousel";
 import ProjectText from "./components/text/ProjectText";
 import "./components/styles/Float.css";
+import "./components/styles/Background.css";
 
 export default function projects() {
   return (
@@ -33,15 +33,16 @@ export default function projects() {
             direction="row"
             alignItems="center"
             style={{ minHeight: "100vh" }}
+            className="gradient stack1 stack2"
           >
-            {/* Desktop : Text */}
+            {/* Desktop : Text *원래 5*/}
             <Grid container direction="row" alignItems="center">
-              <Grid direction="row" sx={{ mt: 5 }}>
+              <Grid direction="row" sx={{ mt: 0 }}>
                 <ProjectText />
               </Grid>
             </Grid>
 
-            <Grid container direction="row" sx={{ mt: 5 }}>
+            <Grid container direction="row" sx={{ mt: 0 }}>
               <Grid
                 container
                 direction="column"

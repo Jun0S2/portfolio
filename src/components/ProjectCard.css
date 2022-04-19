@@ -5,6 +5,7 @@
   border-radius: 25px;
   padding: 10px;
   position: relative;
+  filter: drop-shadow(2px 8px 8px #000);
   animation: activities-whiteBox 15s;
 }
 .innerBox {

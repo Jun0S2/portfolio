@@ -6,7 +6,7 @@ export default function InterestText2() {
     <LargeTypedModule
       isMobile={false}
       msg={" 프론트앤드 개발을 목표로 공부하고 있습니다."}
-      time={5000}
+      time={3500}
       inLine={false}
       lastWord={false}
     />

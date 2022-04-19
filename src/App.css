@@ -1,8 +1,6 @@
 html {
   scroll-behavior: smooth;
-}
 
-html {
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -15,6 +13,6 @@ html {
   background: #f19999;
 }
 
-.App{
-  
+body {
+  background-color: black;
 }

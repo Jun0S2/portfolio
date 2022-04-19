@@ -7,6 +7,7 @@ import "./components/styles/Float.css";
 import { Grid, IconButton, Tooltip } from "@mui/material";
 import Swal from "sweetalert2";
 import ContactText from "../pages/components/text/ContactText";
+import "../components/UniverseStyle.css";
 export default function Contact() {
   const discordId = "June#7825";
   const copyDiscordID = () => {
@@ -41,6 +42,13 @@ export default function Contact() {
           </Grid>
         ) : (
           <Grid container direction="row" alignItems="center">
+            <div id="stars-group-1"></div>
+            <div id="stars-group-2"></div>
+            <div id="stars-group-3"></div>
+            <div id="stars-group-4"></div>
+            <div id="stars-group-5"></div>
+            <div id="stars-group-6"></div>
+
             {/* Desktop */}
             <Grid
               container
@@ -60,7 +68,7 @@ export default function Contact() {
                     href="https://github.com/Jun0S2"
                     style={{ pointerEvents: "auto" }}
                   >
-                    <GitHubIcon style={{ fontSize: "100px", color: "black" }} />
+                    <GitHubIcon style={{ fontSize: "100px", color: "white" }} />
                   </IconButton>
                 </Tooltip>
                 <Tooltip title="Send Email to Me" placement="top">
@@ -71,7 +79,7 @@ export default function Contact() {
                     style={{ pointerEvents: "auto" }}
                   >
                     <MarkunreadIcon
-                      style={{ fontSize: "100px", color: "black" }}
+                      style={{ fontSize: "100px", color: "white" }}
                     />
                   </IconButton>
                 </Tooltip>
@@ -83,7 +91,7 @@ export default function Contact() {
                     style={{ pointerEvents: "auto" }}
                   >
                     <AlternateEmailIcon
-                      style={{ fontSize: "100px", color: "black" }}
+                      style={{ fontSize: "100px", color: "white" }}
                     />
                   </IconButton>
                 </Tooltip>

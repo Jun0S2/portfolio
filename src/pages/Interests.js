@@ -1,7 +1,8 @@
-import "./components/styles/IntroStyle.css";
+import "./components/styles/InterestStyle.css";
 import React from "react";
 import { Grid, Box, Typography } from "@mui/material";
 import InterestText from "./components/text/InterestText";
+import InterestText2 from "./components/text/interestText2";
 import SkillStacks from "./components/TagCloud";
 import "./components/styles/Float.css";
 
@@ -35,14 +36,18 @@ export default function Interests() {
             direction="row"
             alignItems="center"
             style={{ minHeight: "100vh" }}
+            className="background container"
           >
             {/* Desktop : Text */}
-            <Grid container direction="row" alignItems="center" sx={{ mt: -5 }}>
-              <Grid direction="column">
+            <Grid container direction="column" alignItems="center">
+              <Grid item>
                 <InterestText />
               </Grid>
+              <Grid item>
+                <InterestText2 />
+              </Grid>
             </Grid>
-            <Grid container direction="row" sx={{ mt: -30 }}>
+            <Grid container direction="row" sx={{ mt: 0 }}>
               <Grid
                 container
                 direction="column"
@@ -52,7 +57,7 @@ export default function Interests() {
               >
                 <Box>
                   <img
-                    className="intro-aboutMe-desktop  "
+                    className="intro-aboutMe-desktop fadein "
                     style={{ maxWidth: "40vw" }}
                     src={DesktopImg}
                     alt="DesktopImg"
@@ -66,7 +71,7 @@ export default function Interests() {
               <Grid container direction="column" item xs={3}>
                 <Box>
                   <img
-                    className="intro-aboutMe-desktop floating"
+                    className="intro-aboutMe-desktop floating fadein"
                     style={{
                       maxWidth: "12vw",
                       position: "absolute",

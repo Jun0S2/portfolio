@@ -1,8 +1,9 @@
 import "./components/styles/IntroStyle.css";
 import TypedText from "./components/text/TypedText";
 import React from "react";
+import "../components/Effects.css";
 import "./components/styles/Float.css";
-import { Grid } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 /*@author June Park
   - full Page
   - About Me
@@ -23,30 +24,40 @@ export default function Intro() {
           >
             <Grid item row container spacing={0} sx={{ mt: 10 }}>
               <TypedText isMobile={true} />
-              <img
-                class="intro-aboutMe-mobile"
-                src={AboutMeImg}
-                alt="AboutMe"
-              />
+              <Paper elevation={16}>
+                <img
+                  class="intro-aboutMe-mobile"
+                  src={AboutMeImg}
+                  alt="AboutMe"
+                />
+              </Paper>
             </Grid>
           </Grid>
         ) : (
           <Grid container direction="row" alignItems="center">
             {/* Desktop */}
-            <Grid container item xs={5} direction="column" sx={{ px: 8 }}>
-              <TypedText isMobile={false} />
+            <Grid
+              container
+              xs={5}
+              direction="column"
+              sx={{ px: 8 }}
+              className="diagonal-hero-bg fadein"
+              justifyContent="center"
+              style={{ minHeight: "100vh" }}
+            >
+              <Grid item>
+                <TypedText isMobile={false} />
+              </Grid>
             </Grid>
             <Grid
               container
-              item
               xs={6}
               direction="column"
               alignItems="center"
               justifyContent="center"
-              style={{ minHeight: "100vh" }}
             >
               <img
-                className="intro-aboutMe-desktop floating"
+                className="intro-aboutMe-desktop floating fadein"
                 style={{ maxWidth: "50vw" }}
                 src={AboutMeImg}
                 alt="AboutMe"

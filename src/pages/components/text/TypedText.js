@@ -15,7 +15,9 @@ export default function TypedText({ isMobile }) {
         <item>
           <TypeWriterEffect
             startDelay={100}
+            textStyle={{ color: "#FFf" }}
             hideCursorAfterText={true}
+            cursorColor="#fff"
             text="안녕하세요."
             typeSpeed={150}
           />
@@ -24,14 +26,17 @@ export default function TypedText({ isMobile }) {
         <item style={{ float: "left" }}>
           <TypeWriterEffect
             startDelay={1200}
-            text="정리"
+            text="기록"
             hideCursorAfterText={true}
+            cursorColor="#FF6B6B"
             typeSpeed={150}
             textStyle={{ color: "#FF6B6B" }}
           />
         </item>
         <item style={{ float: "none" }}>
           <TypeWriterEffect
+            textStyle={{ color: "#FFf" }}
+            cursorColor="#fff"
             startDelay={1600}
             text="하는 개발자"
             hideCursorAfterText={true}
@@ -42,7 +47,8 @@ export default function TypedText({ isMobile }) {
         <item>
           <TypeWriterEffect
             startDelay={2800}
-            cursorColor="black"
+            cursorColor="#fff"
+            textStyle={{ color: "#FFf" }}
             text="박혜준입니다."
             typeSpeed={150}
             hideCursorAfterText={true}
@@ -56,7 +62,8 @@ export default function TypedText({ isMobile }) {
         >
           <TypeWriterEffect
             startDelay={4000}
-            cursorColor="black"
+            cursorColor="#fff"
+            textStyle={{ color: "#FFf" }}
             text="#도전적 #열정적 #호기심"
             typeSpeed={150}
           ></TypeWriterEffect>

@@ -8,6 +8,7 @@ const StyledCard = styled(Card)(() => ({
   position: "relative",
   border: "none",
   outline: "none",
+
   color: "#666",
   "&:hover": {
     animation: "circlemove 1.5s infinite linear",
@@ -53,7 +54,7 @@ export default function CardComponent({ activity }) {
       >
         <CardActionArea>
           <ProfileTitle
-            sx={{ fontSize: { sm: "1.2rem", xs: "1rem", md: "1.5rem" } }}
+            sx={{ fontSize: { sm: "1.0rem", xs: "1rem", md: "1.2rem" } }}
           >
             {activity.title}
           </ProfileTitle>
@@ -63,7 +64,7 @@ export default function CardComponent({ activity }) {
             {activity.date}
           </ProfileDate>
           <ProfileContent
-            sx={{ fontSize: { sm: "1rem", xs: "0.8rem", md: "1.1rem" } }}
+            sx={{ fontSize: { sm: "0.8rem", xs: "0.8rem", md: "0.8rem" } }}
           >
             {activity.contents}
           </ProfileContent>
@@ -72,7 +73,7 @@ export default function CardComponent({ activity }) {
     );
   };
   return (
-    <Grid item xs={12} sm={6} md={6} lg={5}>
+    <Grid item xs={12} sm={12} md={12} lg={12}>
       {insideInfo()}
     </Grid>
   );
