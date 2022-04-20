@@ -5,7 +5,7 @@ import Interests from "./pages/Interests";
 import Activities from "./pages/Activities";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-
+import Embedded from "./pages/Embedded";
 import "./App.css";
 function App() {
   window.ondragstart = function () {
@@ -29,6 +29,9 @@ function App() {
         {/* 프로젝틑*/}
         <Slide>
           <Projects />
+        </Slide>
+        <Slide>
+          <Embedded />
         </Slide>
         {/* contact me*/}
         <Slide>
