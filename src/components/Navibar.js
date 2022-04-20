@@ -4,8 +4,12 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import { Link as LinkScroll } from "react-scroll";
-
+import { Typography } from "@mui/material";
+import { useState } from "react";
+import "./common.css";
 export default function ButtonAppBar() {
+  const [selected] = useState(0);
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
@@ -21,10 +25,14 @@ export default function ButtonAppBar() {
               to="first"
               spy={true}
               smooth={true}
-              offset={-70}
               duration={150}
             >
-              About Me
+              <Typography
+                color={selected === 1 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                About Me
+              </Typography>
             </LinkScroll>
           </Button>
           <Button color="inherit">
@@ -35,7 +43,12 @@ export default function ButtonAppBar() {
               smooth={true}
               duration={150}
             >
-              Skills
+              <Typography
+                color={selected === 2 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                Skills
+              </Typography>
             </LinkScroll>
           </Button>
           <Button color="inherit">
@@ -46,7 +59,12 @@ export default function ButtonAppBar() {
               smooth={true}
               duration={150}
             >
-              Activities
+              <Typography
+                color={selected === 3 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                Activities
+              </Typography>
             </LinkScroll>
           </Button>
           <Button color="inherit">
@@ -57,7 +75,12 @@ export default function ButtonAppBar() {
               smooth={true}
               duration={150}
             >
-              Projects
+              <Typography
+                color={selected === 4 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                Projects
+              </Typography>
             </LinkScroll>
           </Button>
           <Button color="inherit">
@@ -68,7 +91,12 @@ export default function ButtonAppBar() {
               smooth={true}
               duration={150}
             >
-              Contact
+              <Typography
+                color={selected === 5 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                Contact
+              </Typography>
             </LinkScroll>
           </Button>
         </Toolbar>

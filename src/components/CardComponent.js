@@ -52,19 +52,19 @@ export default function CardComponent({ activity }) {
           px: 1,
         }}
       >
-        <CardActionArea>
+        <CardActionArea sx={{ px: 5, pt: 2 }}>
           <ProfileTitle
-            sx={{ fontSize: { sm: "1.0rem", xs: "1rem", md: "1.5rem" } }}
+            sx={{ fontSize: { sm: "1.0rem", xs: "1rem", md: "1.2rem" } }}
           >
             {activity.title}
           </ProfileTitle>
           <ProfileDate
-            sx={{ fontSize: { sm: "0.7rem", xs: "0.6rem", md: "1.2rem" } }}
+            sx={{ fontSize: { sm: "0.7rem", xs: "0.6rem", md: "1.0rem" } }}
           >
             {activity.date}
           </ProfileDate>
           <ProfileContent
-            sx={{ fontSize: { sm: "0.8rem", xs: "0.8rem", md: "1rem" } }}
+            sx={{ fontSize: { sm: "0.8rem", xs: "0.8rem", md: "0.8rem" } }}
           >
             {activity.contents}
           </ProfileContent>

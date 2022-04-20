@@ -93,11 +93,13 @@ export default function ProjectCard({ projectInfo, imageInfo }) {
               </Tooltip>
 
               {/* 프로젝트 설명이 들어갈 공간 */}
-              <StyledCard variant="outlined" sx={{ pr: 2 }}>
+              <StyledCard
+                variant="outlined"
+                sx={{ pr: 2, size: { xl: "100%", xs: "80%" } }}
+              >
                 <ProjectTitle
                   sx={{
                     fontSize: { sm: "2rem", xs: "1rem", md: "2rem" },
-                    mt: 6,
                   }}
                 >
                   {projectInfo.title}

@@ -64,7 +64,7 @@ export default function ActivityView() {
           </Grid>
 
           <Grid container direction="column" rowSpacing={-2}>
-            <Grid container direction="row">
+            <Grid container direction="column" xs={4}>
               <Grid item xs={6}>
                 {actList.map((act) => (
                   <CardContent key={act.title} activity={act} />

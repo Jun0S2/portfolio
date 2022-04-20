@@ -11,6 +11,7 @@ export default function TypedText({ isMobile }) {
         spacing={0}
         sx={{ ml: { xs: 3 } }}
         className={isMobile ? "lg-text-mobile mobie-ratio" : "lg-text-desktop"}
+        fontSize={{ xs: 25, sm: 28 }}
       >
         <item>
           <TypeWriterEffect

@@ -13,14 +13,14 @@ export default function InterestText() {
       />
       <LargeColorTypedModule
         isMobile={false}
-        msg={"반응형"}
+        msg={"재사용 가능"}
         time={600}
         inLine={true}
         lastWord={false}
       />
       <LargeTypedModule
         isMobile={false}
-        msg={"과"}
+        msg={"하고"}
         time={1100}
         inLine={true}
         lastWord={false}
@@ -28,7 +28,7 @@ export default function InterestText() {
       <LargeColorTypedModule
         isMobile={false}
         inLine={true}
-        msg={"사용자의 마음을 움직이는"}
+        msg={"여러 환경에서 사용 가능한 "}
         time={1250}
         lastWord={false}
       />

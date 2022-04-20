@@ -63,7 +63,6 @@
   border-radius: 25px;
   padding: 10px;
   position: relative;
-  animation: activities-whiteBox 15s;
 }
 .activities-innerBox {
   background-color: white;
@@ -75,7 +74,6 @@
   top: 5%;
   right: 6%;
   margin: -10px 0 0 -5px;
-  animation: activities-whiteBox 15s;
 }
 .activities-table {
   max-height: 35vh;
@@ -86,7 +84,6 @@
   top: 28%;
   right: 6%;
   margin: -10px 0 0 -5px;
-  animation: activities-whiteBox 15s;
 }
 .circle-red {
   background-color: #ff403d;

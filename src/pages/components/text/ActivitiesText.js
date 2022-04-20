@@ -6,22 +6,22 @@ export default function ActivitiesText() {
     <>
       <LargeTypedModule
         isMobile={false}
-        msg={"저의 "}
+        msg={"저는 모든 일에 항상 "}
         time={0}
         inLine={true}
         lastWord={false}
       />
       <LargeColorTypedModule
         isMobile={false}
-        msg={"활동"}
+        msg={"적극적으로"}
         time={600}
         inLine={true}
         lastWord={false}
       />
       <LargeTypedModule
         isMobile={false}
-        msg={" 내역입니다."}
-        time={1100}
+        msg={" 활동하고 있습니다."}
+        time={1600}
         inLine={true}
         lastWord={true}
       />

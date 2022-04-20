@@ -57,6 +57,8 @@ export default function Interests() {
               >
                 <Box>
                   <img
+                    draggable="false"
+                    ondragstart="return false;"
                     className="intro-aboutMe-desktop fadein "
                     style={{ maxWidth: "40vw" }}
                     src={DesktopImg}
@@ -71,6 +73,8 @@ export default function Interests() {
               <Grid container direction="column" item xs={3}>
                 <Box>
                   <img
+                    draggable="false"
+                    ondragstart="return false;"
                     className="intro-aboutMe-desktop floating fadein"
                     style={{
                       maxWidth: "12vw",
