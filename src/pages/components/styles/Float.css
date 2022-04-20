@@ -55,6 +55,8 @@
   to {
     transform: translate(0, 20px);
   }
+  /* 
+  animation: activities-whiteBox 15s;*/
 }
 .activities-whiteBox {
   background-color: pink;

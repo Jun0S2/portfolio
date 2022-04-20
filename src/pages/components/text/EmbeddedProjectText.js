@@ -1,12 +1,12 @@
 import React from "react";
 import LargeTypedModule from "../../../components/LargeTypedModule";
 import LargeColorTypedModule from "../../../components/LargeColorTypedModule";
-export default function WebProjectText() {
+export default function EmbeddedProjectText() {
   return (
     <>
       <LargeColorTypedModule
         isMobile={false}
-        msg={"웹 프로젝트"}
+        msg={"임베디드 프로젝트"}
         time={100}
         inLine={true}
         lastWord={false}

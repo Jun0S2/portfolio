@@ -50,8 +50,9 @@ export default function ProjectCard({ projectInfo, imageInfo }) {
         <div className="circle-green" />
         <div className="innerBox">
           <Grid container justify="flex-start">
-            <Grid item xs={7} sx={{ pr: 0, pt: 2 }}>
+            <Grid item xs={7} sx={{ pr: 0, pt: { xs: 2 }, pl: { xl: "10%" } }}>
               {/* Carousel이 들어갈 자리 */}
+
               <AliceCarousel controlsStrategy="responsive" items={imageInfo} />
             </Grid>
             <Grid item xs={5}>

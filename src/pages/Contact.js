@@ -68,6 +68,7 @@ export default function Contact() {
                     aria-label="git"
                     size="large"
                     href="https://github.com/Jun0S2"
+                    target="_blank"
                     style={{ pointerEvents: "auto" }}
                   >
                     <GitHubIcon style={{ fontSize: "100px", color: "white" }} />

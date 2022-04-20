@@ -10,10 +10,11 @@ export default function IBG() {
   const ibgUploadImg = require("../../../assets/ibg/ibgupload.jpg");
   const ibgSearchImg = require("../../../assets/ibg/ibgsearch.jpg");
   const ibgJoingImg = require("../../../assets/ibg/join.jpg");
-
+  const ibgVid = require("../../../assets/ibg/이보게 시연.mp4");
   const handleDragStart = (e) => e.preventDefault();
   /* 이건 props로 후에 받아올거임*/
   const items = [
+    <video src={ibgVid} type="video/ogg" controls className="vid"></video>,
     <img src={ibgBGMImg} onDragStart={handleDragStart} alt="ibg" />,
     <img src={ibgcafeImg} onDragStart={handleDragStart} alt="ibgCafe" />,
     <img

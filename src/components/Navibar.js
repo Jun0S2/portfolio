@@ -79,7 +79,23 @@ export default function ButtonAppBar() {
                 color={selected === 4 ? "#FF6B6B" : "inherit"}
                 className="menuItem"
               >
-                Projects
+                Web
+              </Typography>
+            </LinkScroll>
+          </Button>
+          <Button color="inherit">
+            <LinkScroll
+              activeClass="active"
+              to="embedded"
+              spy={true}
+              smooth={true}
+              duration={150}
+            >
+              <Typography
+                color={selected === 6 ? "#FF6B6B" : "inherit"}
+                className="menuItem"
+              >
+                Embedded
               </Typography>
             </LinkScroll>
           </Button>

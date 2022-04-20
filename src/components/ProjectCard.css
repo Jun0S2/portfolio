@@ -78,3 +78,20 @@ img:hover {
 .alice-carousel__dots {
   margin-top: -50px;
 }
+
+.vid {
+  max-height: 60vh;
+  max-width: 40vw;
+  object-fit: contain;
+  border-radius: 25px;
+  padding: 10%;
+  /* enlarge */
+  transition: transform 0.25s ease;
+  /* shadow */
+  filter: drop-shadow(5px 5px 4px #000);
+}
+
+.vid:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
